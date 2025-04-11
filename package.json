@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sw0rds-man-2006.github.io/sadra-portfolio/",
+  "homepage": "https://sw0rds-man-2006.github.io/sadra-portfolio",
   "scripts": {
     "dev": "vite",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
