@@ -2,16 +2,16 @@ import React from "react";
 
 const projects = [
   {
-    title: "Web Portfolio",
+    title: "Task Manager",
     description:
-      "A personal portfolio website showcasing my skills, projects, and experience.",
-    githubLink: "https://github.com/username/web-portfolio",
+      "A simple task manager web app for daily schedules and reminders.",
+    githubLink: "https://github.com/Err0rGuy/TaskManager.git",
   },
   {
-    title: "E-commerce Website",
+    title: "Online Barber Shop",
     description:
-      "An e-commerce website with features like product listing, cart, and user authentication.",
-    githubLink: "https://github.com/username/e-commerce-website",
+      "A barber shop website with booking features and service listings.",
+    githubLink: "https://github.com/Err0rGuy/BarberShop.git",
   },
 ];
 

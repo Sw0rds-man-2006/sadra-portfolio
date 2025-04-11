@@ -1,10 +1,12 @@
 import React from "react";
 
 const skills = [
-  { name: "HTML", level: 90 },
-  { name: "CSS", level: 85 },
-  { name: "JavaScript", level: 80 },
-  { name: "React", level: 75 },
+  { name: "Python", level: 65 },
+  { name: "Java", level: 80 },
+  { name: "Php", level: 60 },
+  { name: "Spring boot", level: 70 },
+  { name: "Djngo", level: 70 },
+  { name: "Laravel", level: 60 },
 ];
 
 const Skills = () => {

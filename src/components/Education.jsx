@@ -3,20 +3,26 @@ import React from "react";
 const education = [
   {
     title: "Diploma in Web Design",
-    institution: "کاردانش",
-    duration: "۱۳۹۹ - ۱۴۰۲",
+    institution: "Baagher zade high school",
+    duration: "2020 - 2023",
     description:
-      "I studied web design, learning the basics of front-end technologies like HTML, CSS, and JavaScript.",
+      "I studied web design, learning the basics of front-end technologies like HTML, CSS, and a little bit of php.",
   },
   {
     title: "Associate Degree in Software Engineering",
-    institution: "کارشناسی نرم افزار",
-    duration: "۱۴۰۳ - Present",
+    institution: "Sadjad University",
+    duration: "2024 - Present",
     description:
-      "Pursuing my degree in software engineering with a focus on programming, algorithms, and development frameworks.",
+      "Right now, I'm studying for an associate degree in software at sadjad university in Mashhad",
+  },
+  {
+    title: "Certificate in Electronics",
+    institution: "Technical and Vocational Training Organization",
+    duration: "2023",
+    description:
+      "I completed a certificate program in electronics, gaining hands-on experience with circuits, microcontrollers, and basic electronic systems.",
   },
 ];
-
 const Education = () => {
   return (
     <section className="w-full max-w-[800px] bg-neutral-900 rounded-xl shadow-xl p-8 fade-in-left">
