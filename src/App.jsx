@@ -3,18 +3,17 @@ import "./css/animaition.css";
 import "./css/normalize.css";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 const personalInfo = [
   { label: "Name", value: "Sadra" },
-  { label: "Last Name", value: "Sadeghi" },
-  { label: "Gender", value: "Male" },
-  { label: "Age", value: "25" },
-  { label: "Country", value: "Iran" },
-  { label: "City", value: "Tehran" },
-  { label: "Phone", value: "+98 912 345 6789" },
-  { label: "Email", value: "example@email.com" },
-  { label: "Marital Status", value: "Single" },
-  { label: "Languages", value: "Persian, English" },
+  { lable: "Nationality", value: "Iranian" },
+  { label: "Last Name", value: "Izadi" },
+  { label: "Age", value: "19" },
+  { label: "Phone", value: "+98 903 925 7150" },
+  { label: "Email", value: "sadraizadi@email.com" },
+  { label: "Freelance", value: "Available" },
 ];
 
 const Portfolio = () => {
@@ -42,7 +41,7 @@ const Portfolio = () => {
     <div className="min-h-screen bg-black font-modern overflow-x-hidden">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 flex justify-center z-50">
-        <div className="w-full max-w-[800px] bg-neutral-900 px-4 sm:px-6 py-4 flex flex-col sm:flex-row sm:justify-between items-center shadow-md space-y-3 sm:space-y-0 rounded-b-xl">
+        <div className="w-full max-w-[1000px] bg-neutral-900 px-4 sm:px-6 py-4 flex flex-col sm:flex-row sm:justify-between items-center shadow-md space-y-3 sm:space-y-0 rounded-b-xl">
           <div className="text-2xl font-semibold text-white italic font-signature">
             Sadra
           </div>
@@ -105,6 +104,8 @@ const Portfolio = () => {
         {/* Section: Skills */}
         <Skills />
         <Education />
+        <Projects />
+        <Footer />
       </main>
     </div>
   );
