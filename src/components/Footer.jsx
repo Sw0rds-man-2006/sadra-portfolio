@@ -23,10 +23,6 @@ const Footer = () => {
                 <span className="text-yellow-400 font-semibold">Address:</span>{" "}
                 Mashhad, Iran
               </li>
-              <li>
-                <span className="text-yellow-400 font-semibold">Telegram:</span>{" "}
-                @sadraizadi
-              </li>
             </ul>
           </div>
 
@@ -42,16 +38,16 @@ const Footer = () => {
                   href="https://github.com/username"
                   className="text-yellow-400 hover:underline"
                 >
-                  github.com/username
+                  https://github.com/Err0rGuy/
                 </a>
               </li>
               <li>
-                LinkedIn:{" "}
+                Telegram:{" "}
                 <a
                   href="https://linkedin.com/in/username"
                   className="text-yellow-400 hover:underline"
                 >
-                  linkedin.com/in/username
+                  @SadraIzadi
                 </a>
               </li>
             </ul>
