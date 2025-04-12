@@ -71,7 +71,7 @@ const Portfolio = () => {
               Contact
             </a>
             <a
-              href="/SadraIzadi-backend-developer-resume.pdf"
+              href="/sadra-portfolio/SadraIzadi-backend-developer-resume.pdf"
               download="SadraIzadi-backend-developer-resume.pdf"
               className="hover:text-yellow-500 text-yellow-300 transition no-underline"
             >
