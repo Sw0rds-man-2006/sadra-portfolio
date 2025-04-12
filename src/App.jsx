@@ -17,6 +17,9 @@ const Portfolio = () => {
     }
   };
 
+  const CVlink =
+    import.meta.env.BASE_URL + "/SadraIzadi-back-end-developer-resume.pdf";
+
   useEffect(() => {
     const elements = document.querySelectorAll(".fade-in-left, .fade-in-right");
 
@@ -71,7 +74,7 @@ const Portfolio = () => {
               Contact
             </a>
             <a
-              href="/SadraIzadi-backend-developer-resume.pdf"
+              href={CVlink}
               download="SadraIzadi-backend-developer-resume.pdf"
               className="hover:text-yellow-500 text-yellow-300 transition no-underline"
             >
