@@ -13,15 +13,19 @@ const Footer = () => {
             <ul className="text-white text-sm space-y-2">
               <li>
                 <span className="text-yellow-400 font-semibold">Phone:</span>{" "}
-                +98 912 345 6789
+                +98 903 925 7150
               </li>
               <li>
-                <span className="text-yellow-400 font-semibold">Email:</span>{" "}
-                example@email.com
+                <span className="text-yellow-400 font-semibold">Gmail:</span>{" "}
+                sadraizadi@gmail.com
               </li>
               <li>
                 <span className="text-yellow-400 font-semibold">Address:</span>{" "}
-                Tehran, Iran
+                Mashhad, Iran
+              </li>
+              <li>
+                <span className="text-yellow-400 font-semibold">Telegram:</span>{" "}
+                @sadraizadi
               </li>
             </ul>
           </div>

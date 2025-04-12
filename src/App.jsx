@@ -111,7 +111,7 @@ const Portfolio = () => {
               ["Last Name", "Izadi"],
               ["Age", "19"],
               ["Phone", "+98 903 925 7150"],
-              ["Email", "sadraizadi@email.com"],
+              ["Gmail", "sadraizadi@gmail.com"],
               ["Freelace", "Available"],
               ["Nationality", "Iranian"],
               ["telegram", "@SadraIzadi"],
